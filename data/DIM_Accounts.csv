@@ -1,0 +1,15 @@
+Account_ID,Account_Name,Account_Type,Financial_Statement
+ACC10001,Revenue - Product Sales,Revenue,Income Statement
+ACC10002,Revenue - Service Sales,Revenue,Income Statement
+ACC20001,COGS - Materials,Cost of Goods Sold,Income Statement
+ACC20002,COGS - Labor,Cost of Goods Sold,Income Statement
+ACC30001,Operating Expenses - Salaries,Operating Expenses,Income Statement
+ACC30002,Operating Expenses - Marketing,Operating Expenses,Income Statement
+ACC30003,Operating Expenses - Rent,Operating Expenses,Income Statement
+ACC30004,Operating Expenses - Utilities,Operating Expenses,Income Statement
+ACC40001,Assets - Cash,Current Assets,Balance Sheet
+ACC40002,Assets - Inventory,Current Assets,Balance Sheet
+ACC40003,Assets - Accounts Receivable,Current Assets,Balance Sheet
+ACC50001,Liabilities - Accounts Payable,Current Liabilities,Balance Sheet
+ACC50002,Liabilities - Short-term Debt,Current Liabilities,Balance Sheet
+ACC60001,Equity - Common Stock,Equity,Balance Sheet

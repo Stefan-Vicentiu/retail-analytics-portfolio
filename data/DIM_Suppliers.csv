@@ -1,0 +1,201 @@
+Supplier_ID,Supplier_Name,Supplier_Type,Country,Payment_Terms,Quality_Rating,Is_Active
+SUPP00001,Supplier_1,Wholesaler,Germany,Net 90,1,1
+SUPP00002,Supplier_2,Manufacturer,China,Net 30,4,1
+SUPP00003,Supplier_3,Manufacturer,Romania,Net 60,5,1
+SUPP00004,Supplier_4,Manufacturer,Italy,Net 90,3,1
+SUPP00005,Supplier_5,Wholesaler,Romania,Net 60,4,1
+SUPP00006,Supplier_6,Distributor,China,Prepaid,5,0
+SUPP00007,Supplier_7,Manufacturer,Poland,Prepaid,2,1
+SUPP00008,Supplier_8,Distributor,Germany,Net 30,2,1
+SUPP00009,Supplier_9,Distributor,China,Net 90,4,1
+SUPP00010,Supplier_10,Distributor,Romania,Net 90,1,1
+SUPP00011,Supplier_11,Wholesaler,Romania,Net 60,1,1
+SUPP00012,Supplier_12,Wholesaler,China,Prepaid,4,1
+SUPP00013,Supplier_13,Manufacturer,China,Net 90,1,1
+SUPP00014,Supplier_14,Manufacturer,China,Net 30,1,1
+SUPP00015,Supplier_15,Distributor,Poland,Net 30,2,1
+SUPP00016,Supplier_16,Distributor,China,Net 90,1,1
+SUPP00017,Supplier_17,Distributor,Italy,Net 30,1,1
+SUPP00018,Supplier_18,Wholesaler,Germany,Net 90,4,1
+SUPP00019,Supplier_19,Wholesaler,Germany,Net 90,1,0
+SUPP00020,Supplier_20,Manufacturer,Italy,Net 90,3,0
+SUPP00021,Supplier_21,Distributor,Romania,Net 90,3,1
+SUPP00022,Supplier_22,Distributor,Romania,Net 60,4,1
+SUPP00023,Supplier_23,Wholesaler,Romania,Net 90,3,1
+SUPP00024,Supplier_24,Manufacturer,Romania,Net 30,2,1
+SUPP00025,Supplier_25,Distributor,Poland,Prepaid,4,1
+SUPP00026,Supplier_26,Distributor,Italy,Net 60,1,1
+SUPP00027,Supplier_27,Manufacturer,Germany,Prepaid,3,1
+SUPP00028,Supplier_28,Distributor,Italy,Prepaid,2,0
+SUPP00029,Supplier_29,Wholesaler,Germany,Prepaid,4,1
+SUPP00030,Supplier_30,Manufacturer,Romania,Prepaid,4,1
+SUPP00031,Supplier_31,Distributor,Poland,Prepaid,1,1
+SUPP00032,Supplier_32,Distributor,China,Net 30,5,1
+SUPP00033,Supplier_33,Wholesaler,China,Net 90,3,1
+SUPP00034,Supplier_34,Wholesaler,Romania,Net 30,2,1
+SUPP00035,Supplier_35,Wholesaler,Romania,Net 60,4,1
+SUPP00036,Supplier_36,Distributor,Italy,Net 30,3,1
+SUPP00037,Supplier_37,Distributor,Poland,Net 60,2,1
+SUPP00038,Supplier_38,Distributor,Poland,Net 90,2,1
+SUPP00039,Supplier_39,Manufacturer,Italy,Prepaid,4,1
+SUPP00040,Supplier_40,Wholesaler,Poland,Net 90,3,1
+SUPP00041,Supplier_41,Manufacturer,Poland,Net 30,2,1
+SUPP00042,Supplier_42,Wholesaler,China,Net 30,4,1
+SUPP00043,Supplier_43,Distributor,Poland,Net 90,3,1
+SUPP00044,Supplier_44,Manufacturer,Romania,Net 90,3,0
+SUPP00045,Supplier_45,Manufacturer,China,Net 30,4,1
+SUPP00046,Supplier_46,Wholesaler,Romania,Net 90,3,1
+SUPP00047,Supplier_47,Manufacturer,Romania,Net 60,5,1
+SUPP00048,Supplier_48,Manufacturer,Italy,Net 60,2,1
+SUPP00049,Supplier_49,Distributor,Poland,Net 30,2,0
+SUPP00050,Supplier_50,Wholesaler,Poland,Net 30,3,1
+SUPP00051,Supplier_51,Manufacturer,Poland,Net 90,4,1
+SUPP00052,Supplier_52,Distributor,Poland,Net 90,1,1
+SUPP00053,Supplier_53,Manufacturer,China,Prepaid,3,1
+SUPP00054,Supplier_54,Distributor,Germany,Net 60,1,1
+SUPP00055,Supplier_55,Manufacturer,Romania,Net 30,3,1
+SUPP00056,Supplier_56,Distributor,Germany,Net 30,1,1
+SUPP00057,Supplier_57,Distributor,Germany,Net 30,3,0
+SUPP00058,Supplier_58,Wholesaler,Germany,Net 30,4,1
+SUPP00059,Supplier_59,Distributor,China,Prepaid,1,1
+SUPP00060,Supplier_60,Manufacturer,Germany,Net 60,5,0
+SUPP00061,Supplier_61,Distributor,China,Prepaid,4,1
+SUPP00062,Supplier_62,Distributor,Italy,Net 60,3,0
+SUPP00063,Supplier_63,Manufacturer,Italy,Net 30,1,0
+SUPP00064,Supplier_64,Manufacturer,Italy,Net 60,2,1
+SUPP00065,Supplier_65,Distributor,China,Net 30,4,1
+SUPP00066,Supplier_66,Manufacturer,China,Prepaid,1,1
+SUPP00067,Supplier_67,Distributor,Romania,Net 60,4,0
+SUPP00068,Supplier_68,Distributor,Germany,Net 90,1,1
+SUPP00069,Supplier_69,Distributor,Poland,Net 60,2,1
+SUPP00070,Supplier_70,Manufacturer,Poland,Net 30,5,0
+SUPP00071,Supplier_71,Wholesaler,Germany,Net 90,2,1
+SUPP00072,Supplier_72,Wholesaler,Poland,Net 30,3,0
+SUPP00073,Supplier_73,Distributor,Poland,Net 90,4,1
+SUPP00074,Supplier_74,Distributor,Poland,Net 90,5,0
+SUPP00075,Supplier_75,Manufacturer,China,Net 60,4,1
+SUPP00076,Supplier_76,Wholesaler,China,Net 60,1,1
+SUPP00077,Supplier_77,Wholesaler,China,Net 90,3,1
+SUPP00078,Supplier_78,Wholesaler,Germany,Net 90,3,1
+SUPP00079,Supplier_79,Manufacturer,Italy,Net 90,4,1
+SUPP00080,Supplier_80,Manufacturer,Poland,Net 30,3,1
+SUPP00081,Supplier_81,Manufacturer,Romania,Net 60,4,1
+SUPP00082,Supplier_82,Distributor,China,Net 30,1,1
+SUPP00083,Supplier_83,Manufacturer,Romania,Net 60,1,1
+SUPP00084,Supplier_84,Distributor,Poland,Prepaid,4,0
+SUPP00085,Supplier_85,Distributor,Italy,Net 30,2,1
+SUPP00086,Supplier_86,Distributor,Romania,Net 60,2,1
+SUPP00087,Supplier_87,Distributor,Poland,Net 90,1,1
+SUPP00088,Supplier_88,Manufacturer,Poland,Net 90,5,1
+SUPP00089,Supplier_89,Manufacturer,China,Net 60,2,1
+SUPP00090,Supplier_90,Wholesaler,Italy,Net 90,4,1
+SUPP00091,Supplier_91,Wholesaler,Poland,Net 90,1,1
+SUPP00092,Supplier_92,Distributor,Italy,Prepaid,3,1
+SUPP00093,Supplier_93,Wholesaler,China,Prepaid,3,1
+SUPP00094,Supplier_94,Wholesaler,Romania,Prepaid,2,1
+SUPP00095,Supplier_95,Wholesaler,Germany,Net 30,5,1
+SUPP00096,Supplier_96,Distributor,Germany,Prepaid,2,1
+SUPP00097,Supplier_97,Wholesaler,Germany,Prepaid,5,1
+SUPP00098,Supplier_98,Manufacturer,Italy,Prepaid,2,0
+SUPP00099,Supplier_99,Distributor,Germany,Net 60,3,0
+SUPP00100,Supplier_100,Manufacturer,Romania,Net 90,5,1
+SUPP00101,Supplier_101,Distributor,Poland,Net 60,3,0
+SUPP00102,Supplier_102,Manufacturer,Italy,Prepaid,4,1
+SUPP00103,Supplier_103,Wholesaler,Romania,Net 30,4,1
+SUPP00104,Supplier_104,Distributor,Italy,Net 60,1,1
+SUPP00105,Supplier_105,Manufacturer,Italy,Prepaid,3,0
+SUPP00106,Supplier_106,Distributor,Italy,Net 30,3,1
+SUPP00107,Supplier_107,Manufacturer,China,Net 30,1,1
+SUPP00108,Supplier_108,Wholesaler,Poland,Net 30,4,1
+SUPP00109,Supplier_109,Distributor,Germany,Net 90,4,1
+SUPP00110,Supplier_110,Distributor,China,Net 30,5,1
+SUPP00111,Supplier_111,Manufacturer,Poland,Prepaid,5,1
+SUPP00112,Supplier_112,Manufacturer,Germany,Net 60,4,1
+SUPP00113,Supplier_113,Wholesaler,China,Net 60,2,1
+SUPP00114,Supplier_114,Manufacturer,China,Prepaid,3,0
+SUPP00115,Supplier_115,Manufacturer,Romania,Net 90,5,0
+SUPP00116,Supplier_116,Manufacturer,China,Net 90,2,1
+SUPP00117,Supplier_117,Wholesaler,Italy,Net 30,5,0
+SUPP00118,Supplier_118,Wholesaler,China,Prepaid,1,0
+SUPP00119,Supplier_119,Distributor,Italy,Net 30,3,1
+SUPP00120,Supplier_120,Wholesaler,Poland,Net 30,5,0
+SUPP00121,Supplier_121,Manufacturer,Poland,Prepaid,4,1
+SUPP00122,Supplier_122,Distributor,Italy,Net 90,1,1
+SUPP00123,Supplier_123,Wholesaler,Romania,Net 90,1,1
+SUPP00124,Supplier_124,Wholesaler,Romania,Net 60,4,1
+SUPP00125,Supplier_125,Manufacturer,Poland,Prepaid,1,1
+SUPP00126,Supplier_126,Manufacturer,China,Net 30,3,1
+SUPP00127,Supplier_127,Wholesaler,Poland,Prepaid,5,1
+SUPP00128,Supplier_128,Distributor,Poland,Net 30,1,0
+SUPP00129,Supplier_129,Manufacturer,Italy,Net 60,3,1
+SUPP00130,Supplier_130,Wholesaler,Romania,Net 60,4,0
+SUPP00131,Supplier_131,Wholesaler,Italy,Net 60,5,1
+SUPP00132,Supplier_132,Manufacturer,Poland,Net 60,4,1
+SUPP00133,Supplier_133,Distributor,Germany,Net 30,5,1
+SUPP00134,Supplier_134,Distributor,China,Net 90,1,1
+SUPP00135,Supplier_135,Distributor,Poland,Net 30,1,1
+SUPP00136,Supplier_136,Manufacturer,Italy,Net 60,5,1
+SUPP00137,Supplier_137,Manufacturer,Germany,Net 90,3,1
+SUPP00138,Supplier_138,Manufacturer,Germany,Prepaid,3,1
+SUPP00139,Supplier_139,Distributor,Poland,Net 30,3,0
+SUPP00140,Supplier_140,Distributor,Romania,Prepaid,2,1
+SUPP00141,Supplier_141,Manufacturer,Germany,Net 60,3,1
+SUPP00142,Supplier_142,Manufacturer,China,Prepaid,1,1
+SUPP00143,Supplier_143,Manufacturer,Italy,Net 90,2,1
+SUPP00144,Supplier_144,Distributor,Italy,Net 90,3,1
+SUPP00145,Supplier_145,Wholesaler,Italy,Net 90,1,1
+SUPP00146,Supplier_146,Wholesaler,Poland,Net 30,2,1
+SUPP00147,Supplier_147,Distributor,Italy,Prepaid,1,1
+SUPP00148,Supplier_148,Manufacturer,Italy,Prepaid,5,1
+SUPP00149,Supplier_149,Manufacturer,China,Prepaid,1,1
+SUPP00150,Supplier_150,Manufacturer,Romania,Net 60,2,1
+SUPP00151,Supplier_151,Manufacturer,Poland,Net 30,3,1
+SUPP00152,Supplier_152,Distributor,Poland,Net 30,2,1
+SUPP00153,Supplier_153,Wholesaler,Italy,Prepaid,3,1
+SUPP00154,Supplier_154,Wholesaler,China,Net 30,3,1
+SUPP00155,Supplier_155,Distributor,Germany,Prepaid,4,1
+SUPP00156,Supplier_156,Manufacturer,Italy,Prepaid,5,1
+SUPP00157,Supplier_157,Wholesaler,Italy,Prepaid,4,1
+SUPP00158,Supplier_158,Distributor,Poland,Net 90,2,0
+SUPP00159,Supplier_159,Manufacturer,Poland,Net 60,4,1
+SUPP00160,Supplier_160,Wholesaler,Italy,Net 30,3,1
+SUPP00161,Supplier_161,Distributor,Poland,Net 60,2,1
+SUPP00162,Supplier_162,Wholesaler,China,Net 90,4,1
+SUPP00163,Supplier_163,Wholesaler,Germany,Net 30,1,1
+SUPP00164,Supplier_164,Distributor,Germany,Prepaid,5,1
+SUPP00165,Supplier_165,Distributor,Germany,Net 60,1,0
+SUPP00166,Supplier_166,Wholesaler,Italy,Net 90,2,1
+SUPP00167,Supplier_167,Wholesaler,Italy,Net 30,4,1
+SUPP00168,Supplier_168,Distributor,Italy,Net 30,3,0
+SUPP00169,Supplier_169,Manufacturer,China,Net 60,4,0
+SUPP00170,Supplier_170,Manufacturer,Germany,Net 60,2,1
+SUPP00171,Supplier_171,Manufacturer,Poland,Net 30,2,1
+SUPP00172,Supplier_172,Manufacturer,Poland,Net 30,2,1
+SUPP00173,Supplier_173,Distributor,Romania,Net 90,2,1
+SUPP00174,Supplier_174,Manufacturer,Romania,Prepaid,4,1
+SUPP00175,Supplier_175,Wholesaler,Poland,Prepaid,1,0
+SUPP00176,Supplier_176,Manufacturer,Germany,Net 90,3,1
+SUPP00177,Supplier_177,Distributor,Italy,Net 30,3,1
+SUPP00178,Supplier_178,Manufacturer,Poland,Net 60,5,1
+SUPP00179,Supplier_179,Manufacturer,Poland,Net 60,2,1
+SUPP00180,Supplier_180,Distributor,Romania,Net 30,2,1
+SUPP00181,Supplier_181,Manufacturer,Germany,Net 90,2,1
+SUPP00182,Supplier_182,Distributor,Poland,Net 30,1,1
+SUPP00183,Supplier_183,Manufacturer,Italy,Net 60,2,1
+SUPP00184,Supplier_184,Distributor,Italy,Net 30,5,1
+SUPP00185,Supplier_185,Manufacturer,China,Net 30,5,1
+SUPP00186,Supplier_186,Wholesaler,Italy,Net 90,1,1
+SUPP00187,Supplier_187,Wholesaler,Poland,Prepaid,2,1
+SUPP00188,Supplier_188,Distributor,Poland,Net 60,4,0
+SUPP00189,Supplier_189,Distributor,Italy,Net 60,4,0
+SUPP00190,Supplier_190,Distributor,Romania,Net 30,3,1
+SUPP00191,Supplier_191,Wholesaler,Germany,Net 60,1,1
+SUPP00192,Supplier_192,Distributor,Poland,Net 60,4,1
+SUPP00193,Supplier_193,Manufacturer,Italy,Prepaid,3,1
+SUPP00194,Supplier_194,Distributor,Italy,Net 60,5,1
+SUPP00195,Supplier_195,Distributor,Poland,Net 60,3,1
+SUPP00196,Supplier_196,Manufacturer,China,Net 90,2,1
+SUPP00197,Supplier_197,Manufacturer,Germany,Net 90,2,1
+SUPP00198,Supplier_198,Wholesaler,Poland,Net 90,5,1
+SUPP00199,Supplier_199,Manufacturer,Italy,Net 90,1,1
+SUPP00200,Supplier_200,Manufacturer,China,Net 90,2,1
