@@ -50,6 +50,29 @@ opportunities and support data-driven decision making.
 | Budget & Variance | Budget vs Actual, Forecast Accuracy |
 | DevOps & Project Tracking | Jira + GitHub Analytics *(coming soon)* |
 
+## 📋 DMAIC Documentation
+
+Full Lean Six Sigma Green Belt analysis documented across 5 phases:
+
+| Phase | Document | Status |
+|-------|----------|--------|
+| Project Charter | [00_Project_Charter.md](docs/DMAIC/00_Project_Charter.md) | ✅ Complete |
+| Define | [01_Define.md](docs/DMAIC/01_Define.md) | ✅ Complete |
+| Measure | [02_Measure.md](docs/DMAIC/02_Measure.md) | ✅ Complete |
+| Analyze | [03_Analyze.md](docs/DMAIC/03_Analyze.md) | ✅ Complete |
+| Improve | [04_Improve.md](docs/DMAIC/04_Improve.md) | ✅ Complete |
+| Control | [05_Control.md](docs/DMAIC/05_Control.md) | ✅ Complete |
+
+### Key Findings Summary
+| Problem | Current | Target | Gap |
+|---------|---------|--------|-----|
+| On-Time Delivery | 47% | 85% | 🔴 -38pp |
+| Churn Rate | 41% | ≤25% | 🔴 -16pp |
+| OEE | 82% | 85% | 🟡 -3pp |
+| Sigma Level | 4 | 6 | 🟡 -2 levels |
+| Budget Variance | +11% | ≤5% | 🟡 -6pp |
+| Forecast Accuracy | 97% | ≥95% | ✅ Exceeds |
+
 ## 🛠️ Tools & Technologies
 - **Power BI Desktop** — DAX, Power Query, Data Modeling
 - **Data Model** — Star Schema (14 tables, 29 relationships, 516 measures)
