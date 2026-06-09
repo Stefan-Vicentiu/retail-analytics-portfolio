@@ -39,31 +39,48 @@ customer satisfaction, profitability, and process efficiency:
 | Customers | On-time delivery | High |
 
 ## CTQ Tree (Critical to Quality)
-Voice of Customer (Retailer)
-│
-├── "I want on-time deliveries"
-│       └── CTQ: On-Time Delivery Rate ≥ 85%
-│               ├── Driver: Supplier Performance Index ≥ 85
-│               ├── Driver: Delivery Delay Days ≤ 3
-│               └── Driver: Stockout Rate ≤ 2%
-│
-├── "I want defect-free products"
-│       └── CTQ: First Pass Yield ≥ 95%
-│               ├── Driver: DPMO ≤ 233 (5 Sigma target)
-│               ├── Driver: Defects Per Unit ≤ 3%
-│               └── Driver: OEE ≥ 85%
-│
-├── "I want to retain my customers"
-│       └── CTQ: Customer Retention Rate ≥ 75%
-│               ├── Driver: Churn Rate ≤ 25%
-│               ├── Driver: At Risk Customers ≤ 10% of base
-│               └── Driver: Champions Segment ≥ 40%
-│
-└── "I want costs under control"
-        └── CTQ: Budget Variance ≤ 5%
-                ├── Driver: Forecast Accuracy ≥ 95%
-                ├── Driver: OPEX within budget ±5%
-                └── Driver: Cost per Purchase Line ↓ YoY
+
+### 1. "I want on-time deliveries"
+**CTQ Metric:** On-Time Delivery Rate ≥ 85%
+
+| Driver | Target |
+|--------|--------|
+| Supplier Performance Index | ≥ 85 |
+| Delivery Delay Days | ≤ 3 days |
+| Stockout Rate | ≤ 2% |
+
+---
+
+### 2. "I want defect-free products"
+**CTQ Metric:** First Pass Yield ≥ 95%
+
+| Driver | Target |
+|--------|--------|
+| DPMO | ≤ 233 (5 Sigma) |
+| Defects Per Unit | ≤ 3% |
+| OEE | ≥ 85% |
+
+---
+
+### 3. "I want to retain my customers"
+**CTQ Metric:** Customer Retention Rate ≥ 75%
+
+| Driver | Target |
+|--------|--------|
+| Churn Rate | ≤ 25% |
+| At Risk Customers | ≤ 10% of base |
+| Champions Segment | ≥ 40% of base |
+
+---
+
+### 4. "I want costs under control"
+**CTQ Metric:** Budget Variance ≤ 5%
+
+| Driver | Target |
+|--------|--------|
+| Forecast Accuracy | ≥ 95% |
+| OPEX vs Budget | ± 5% |
+| Cost per Purchase Line | ↓ YoY |
 
 ## Business Impact
 | Area | Current Loss | Opportunity |

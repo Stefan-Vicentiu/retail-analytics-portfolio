@@ -19,44 +19,27 @@ identified in the Measure phase using data-driven analysis.
 
 ### Problem 1 — On-Time Delivery (47%)
 
-#### 5 Whys Analysis
-WHY 1: Why is On-Time Delivery only 47%?
-→ More than half of purchase orders arrive after expected date
-WHY 2: Why do purchase orders arrive late?
-→ Suppliers consistently underperform (SPI avg 41/100)
-WHY 3: Why do suppliers underperform?
-→ No supplier development program exists
-→ Single-source dependency for critical items
-→ No contractual SLA enforcement mechanism
-WHY 4: Why is there no supplier management framework?
-→ Procurement process lacks performance review gates
-→ Supplier selection based on cost, not performance balance
-WHY 5: Why is supplier selection cost-focused only?
-→ Total Cost of Ownership (TCO) not used in supplier evaluation
-→ Delivery performance not weighted in supplier scorecard
-ROOT CAUSE: Absence of supplier performance management
-framework with TCO-based evaluation and SLA enforcement
+#### 5 Whys Analysis — On-Time Delivery 47%
 
-#### Fishbone Diagram (Ishikawa)
+| Why | Question | Answer |
+|-----|----------|--------|
+| Why 1 | Why is On-Time Delivery only 47%? | More than half of purchase orders arrive after expected date |
+| Why 2 | Why do orders arrive late? | Suppliers consistently underperform — SPI avg 41/100 |
+| Why 3 | Why do suppliers underperform? | No supplier development program — single source dependency — no SLA enforcement |
+| Why 4 | Why is there no supplier management framework? | Procurement lacks performance review gates — selection based on cost only |
+| Why 5 | Why is selection cost-focused only? | TCO not used in evaluation — delivery performance not weighted in scorecard |
+| **Root Cause** | | **Absence of supplier performance management framework with TCO-based evaluation and SLA enforcement** |
 
-ON-TIME DELIVERY 47%
-                       |
-┌──────────────────────┼──────────────────────┐
-│                      │                      │
-SUPPLIER              PROCESS                SYSTEM
-│                      │                      │
-├─ SPI avg 41         ├─ No SLA gates        ├─ No real-time
-├─ Single source      ├─ Manual PO process      tracking
-├─ No development     ├─ Long approval time  ├─ No alerts
-└─ Quality issues     └─ No escalation path  └─ No KPI dashboard
-│                      │                      │
-PEOPLE               MATERIAL              MEASUREMENT
-│                      │                      │
-├─ No supplier        ├─ Stockout 3%        ├─ Delivery date
-manager role       ├─ Overstock items       proxy only
-├─ No performance     └─ ABC not used       ├─ No SLA defined
-reviews               in ordering        └─ Reactive not
-└─ Cost-only focus                             proactive
+#### Fishbone Diagram (Ishikawa) — On-Time Delivery 47%
+
+| Category | Root Causes |
+|----------|------------|
+| **Supplier** | SPI avg 41/100 — Single source dependency — No supplier development program — Quality issues |
+| **Process** | No SLA enforcement gates — Manual PO process — Long approval time — No escalation path |
+| **System** | No real-time tracking — No automated alerts — No KPI dashboard for suppliers |
+| **People** | No dedicated supplier manager — No performance reviews — Cost-only evaluation focus |
+| **Material** | Stockout 3% — Overstock items — ABC classification not used in ordering |
+| **Measurement** | Delivery date is proxy only — No SLA defined — Reactive not proactive monitoring |
 
 ### Problem 2 — Process Cycle Efficiency (4%)
 
@@ -106,19 +89,14 @@ Churn Drivers:
 
 ### Problem 4 — OEE (82% vs 85% target)
 
-#### OEE Component Analysis
-OEE = Availability × Performance × Quality Rate
-= 91% × 95% × 95% = 82%
-Gap Analysis:
-├── Availability 91% (target 95%) → -4pp gap
-│       Root cause: Unplanned downtime,
-│       maintenance scheduling gaps
-├── Performance 95% (target 98%) → -3pp gap
-│       Root cause: Speed losses,
-│       theoretical vs actual output gap
-└── Quality Rate 95% (target 99%) → -4pp gap
-Root cause: Defects by category
-(Sports 6.86%, Health & Beauty 6.64%)
+#### OEE Component Breakdown
+
+| Component | Current | Target | Gap | Root Cause |
+|-----------|---------|--------|-----|------------|
+| Availability | 91% | 95% | -4pp | Unplanned downtime, maintenance gaps |
+| Performance | 95% | 98% | -3pp | Speed losses, theoretical vs actual output |
+| Quality Rate | 95% | 99% | -4pp | Defects in Sports and Health & Beauty |
+| **OEE Total** | **82%** | **85%** | **-3pp** | Combined component gaps |
 
 ### Problem 5 — Budget Overspend (11%)
 
