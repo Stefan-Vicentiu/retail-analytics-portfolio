@@ -43,49 +43,75 @@ identified in the Measure phase using data-driven analysis.
 
 ### Problem 2 — Process Cycle Efficiency (4%)
 
-#### Value Stream Analysis
-Order to Cash Process — Current State
-Customer Order → [WAIT 48h] → Order Processing → [WAIT] →
-Warehouse Pick → [WAIT] → Quality Check → [WAIT] →
-Dispatch → [WAIT] → Delivery → Invoice → [WAIT 701 days] →
-Payment Collection
-Value-Added Time:    2 hours  (4%)
-Non-Value-Added:    46 hours  (96%)
-Total Cycle Time:   48 hours
-Waste Categories Identified (7 Wastes — Lean):
-├── Waiting:     Major — between each process step
-├── Transport:   Medium — multiple warehouse touchpoints
-├── Inventory:   Medium — overstock items identified
-├── Defects:     Medium — 5.26% avg DPU
-├── Processing:  Minor — manual approval steps
-├── Motion:      Minor — warehouse layout
-└── Overproduction: Low — demand forecasting gap
+#### Value Stream Analysis — Order to Cash Current State
+
+| Step | Type | Time | Value Added |
+|------|------|------|-------------|
+| Customer Order Received | Process | 0h | ✅ Yes |
+| Order Processing | Wait | 12h | ❌ No |
+| Warehouse Pick | Process | 1h | ✅ Yes |
+| Quality Check | Process | 1h | ✅ Yes |
+| Waiting for Dispatch | Wait | 10h | ❌ No |
+| Dispatch | Process | 0h | ✅ Yes |
+| Delivery Transit | Wait | 24h | ❌ No |
+| Invoice Generation | Process | 0h | ✅ Yes |
+| Payment Collection | Wait | 701 days | ❌ No |
+
+**Summary:**
+
+| Metric | Value |
+|--------|-------|
+| Value-Added Time | 2 hours (4%) |
+| Non-Value-Added Time | 46 hours (96%) |
+| Total Cycle Time | 48 hours |
+
+**7 Wastes Identified (Lean):**
+
+| Waste | Severity | Description |
+|-------|----------|-------------|
+| Waiting | 🔴 Critical | Between every process step |
+| Transport | 🟡 Medium | Multiple warehouse touchpoints |
+| Inventory | 🟡 Medium | Overstock items identified |
+| Defects | 🟡 Medium | 5.26% avg DPU |
+| Processing | 🟢 Minor | Manual approval steps |
+| Motion | 🟢 Minor | Warehouse layout inefficiency |
+| Overproduction | 🟢 Low | Demand forecasting gap |
 
 #### Order to Cash Cycle Time — 701 Days
-Root Cause: Payment collection process is the primary driver
-├── Outstanding invoices aging beyond 90 days
-├── No automated payment reminder system
-├── AR 0-30 Days vs AR >90 Days ratio not optimized
-└── Collection Effectiveness Index not monitored
+
+**Root Cause: Payment collection process is the primary driver**
+
+| Issue | Impact |
+|-------|--------|
+| Outstanding invoices aging beyond 90 days | High |
+| No automated payment reminder system | High |
+| AR 0-30 Days vs AR >90 Days ratio not optimized | Medium |
+| Collection Effectiveness Index not monitored | Medium |
 
 ### Problem 3 — Customer Retention (59%)
 
 #### RFM Analysis Findings
-Customer Segmentation:
-├── Champions:      272 (28%) — protect and grow
-├── Loyal:          186 (19%) — reward loyalty
-├── Need Attention: 115 (12%) — re-engage
-├── At Risk:        268 (28%) — urgent intervention
-└── Lost:           123 (13%) — win-back campaign
-Key Finding: At Risk (268) ≈ Champions (272)
-This indicates the customer base is at a critical
-tipping point — without intervention,
-Champions of tomorrow are leaving today.
-Churn Drivers:
-├── Average Days Since Last Purchase increasing
-├── Purchase frequency declining in At Risk segment
-├── No proactive retention program identified
-└── Discount strategy not targeted to At Risk segment
+
+| Segment | Count | % of Base | Action |
+|---------|-------|-----------|--------|
+| Champions | 272 | 28% | Protect and grow |
+| Loyal Customers | 186 | 19% | Reward loyalty |
+| Need Attention | 115 | 12% | Re-engage |
+| At Risk | 268 | 28% | Urgent intervention |
+| Lost | 123 | 13% | Win-back campaign |
+
+> **Key Finding:** At Risk (268) ≈ Champions (272)
+> The customer base is at a critical tipping point.
+> Without intervention, Champions of tomorrow are leaving today.
+
+**Churn Drivers:**
+
+| Driver | Status |
+|--------|--------|
+| Average Days Since Last Purchase | Increasing |
+| Purchase frequency in At Risk segment | Declining |
+| Proactive retention program | Not exists |
+| Discount strategy targeting At Risk | Not targeted |
 
 ### Problem 4 — OEE (82% vs 85% target)
 
@@ -101,21 +127,33 @@ Churn Drivers:
 ### Problem 5 — Budget Overspend (11%)
 
 #### Variance Analysis
-Total Budget:  165M
-Total Actual:  183M
-Variance:      +18M (+11%)
-Forecast Accuracy: 97% ✅
-Finding: Forecast is accurate but execution overspends.
-This indicates a control gap, not a planning gap.
-Monthly Pattern:
-├── May: +19.78% — highest overspend month
-├── August: +18.52% — second highest
-├── December: -0.26% — only under-budget month
-└── Average: +11.01% consistently above budget
-Root Cause:
-├── No mid-month budget review gates
-├── Committed spend not monitored vs available budget
-└── No automated alerts for budget threshold breaches
+
+| Metric | Value |
+|--------|-------|
+| Total Budget | 165M |
+| Total Actual | 183M |
+| Variance | +18M (+11%) |
+| Forecast Accuracy | 97% ✅ |
+
+> **Key Finding:** Forecast is accurate but execution overspends.
+> This indicates a **control gap**, not a planning gap.
+
+**Monthly Variance Pattern:**
+
+| Month | Variance | Status |
+|-------|----------|--------|
+| May | +19.78% | 🔴 Highest overspend |
+| August | +18.52% | 🔴 Second highest |
+| Average | +11.01% | 🟡 Consistently above budget |
+| December | -0.26% | ✅ Only under-budget month |
+
+**Root Causes:**
+
+| Root Cause | Impact |
+|------------|--------|
+| No mid-month budget review gates | High |
+| Committed spend not monitored vs available budget | High |
+| No automated alerts for budget threshold breaches | Medium |
 
 ## Correlation Analysis
 
