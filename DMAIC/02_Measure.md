@@ -60,8 +60,8 @@ the measurement system.
 |--------|----------|--------|-----|
 | Order to Cash Cycle Time | 701 days | ≤ 30 days | Critical |
 | Value-Added Time | 2 hours | Maximize | Critical |
-| Total Cycle Time | 48 hours | Minimize | TBD |
-| Process Cycle Efficiency | 4% | ≥ 15% | -11pp |
+| Total Cycle Time | 47 hours | Minimize | TBD |
+| Process Cycle Efficiency | 78% | ≥ 89% | -11pp |
 
 ## Measurement System Analysis
 
@@ -116,8 +116,8 @@ Primary constraint: Availability (91% vs 95% target)
    affecting customer satisfaction directly.
 
 2. **Process Cycle Efficiency at 4% indicates systemic waste** — 
-   Only 2 hours of value-added time in a 48-hour cycle. 
-   96% of process time adds no customer value.
+   Only 2 hours of value-added time in a 47-hour cycle. 
+   22% of process time adds no customer value.
 
 3. **Customer base at tipping point** — 
    268 At Risk customers (41% potential churn) 
@@ -133,5 +133,5 @@ Primary constraint: Availability (91% vs 95% target)
 - [x] Process capability calculated (Sigma, OEE)
 - [x] Measurement system validated
 - [x] Key gaps quantified
-- [ ] Control charts for key metrics *(planned in Power BI)*
-- [ ] Detailed VSM with time measurements *(planned)*
+- [x] Control charts for key metrics
+- [ ] Detailed VSM with time measurements *(planned)* - partial made 33%
