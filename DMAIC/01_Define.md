@@ -5,7 +5,7 @@ The organization faces critical operational gaps affecting
 customer satisfaction, profitability, and process efficiency:
 
 - **On-Time Delivery: 47%** vs industry target of 85%
-- **Process Cycle Efficiency: 4%** — 96% of cycle time is waste
+- **Process Cycle Efficiency: 78%** — 22% of cycle time is waste
 - **268 At Risk customers** nearly equal 272 Champions
 - **Budget overspend: 11%** despite 97% forecast accuracy
 
@@ -87,7 +87,7 @@ customer satisfaction, profitability, and process efficiency:
 |------|-------------|-------------|
 | Revenue at risk | 41% delayed orders | +38pp delivery improvement |
 | Customer churn | 41% Churn Rate | Retention program for 268 At Risk |
-| Process waste | 96% non-value-added time | Cycle time reduction |
+| Process waste | 22% non-value-added time | Cycle time reduction |
 | Budget control | 11% overspend | Execution gate reviews |
 
 ## Problem Prioritization (Pareto)
@@ -95,7 +95,7 @@ Based on business impact, the top 3 priorities are:
 
 1. **On-Time Delivery (47%)** — highest customer impact
 2. **Customer Retention (41% Churn)** — direct revenue risk  
-3. **Process Cycle Efficiency (4%)** — largest waste opportunity
+3. **Process Cycle Efficiency (78%)** — waste opportunity
 
 ## Deliverables — Define Phase
 - [x] Project Charter
@@ -103,6 +103,6 @@ Based on business impact, the top 3 priorities are:
 - [x] CTQ Tree
 - [x] Stakeholder Analysis
 - [x] Problem prioritization
-- [ ] VSM — Order to Cash *(in progress)*
+- [x] VSM — Order to Cash *(in progress)*
 - [ ] VSM — Purchase to Pay *(planned)*
 - [ ] VSM — Inventory Management *(planned)*
