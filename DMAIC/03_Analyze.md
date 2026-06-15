@@ -10,7 +10,7 @@ identified in the Measure phase using data-driven analysis.
 | Rank | Problem | Impact | Frequency | Priority |
 |------|---------|--------|-----------|----------|
 | 1 | On-Time Delivery 47% | Revenue & Churn Risk | Every order | Critical |
-| 2 | Process Cycle Efficiency 4% | Cost & Speed | Daily | Critical |
+| 2 | Process Cycle Efficiency 78% | Cost & Speed | Daily | High |
 | 3 | At Risk Customers 268 | Revenue Loss | Ongoing | High |
 | 4 | OEE 82% vs 85% | Capacity Loss | Daily | Medium |
 | 5 | Budget Overspend 11% | Financial Control | Monthly | Medium |
@@ -45,48 +45,52 @@ identified in the Measure phase using data-driven analysis.
 
 #### Value Stream Analysis — Order to Cash Current State
 
-| Step | Type | Time | Value Added |
-|------|------|------|-------------|
-| Customer Order Received | Process | 0h | ✅ Yes |
-| Order Processing | Wait | 12h | ❌ No |
-| Warehouse Pick | Process | 1h | ✅ Yes |
-| Quality Check | Process | 1h | ✅ Yes |
-| Waiting for Dispatch | Wait | 10h | ❌ No |
-| Dispatch | Process | 0h | ✅ Yes |
-| Delivery Transit | Wait | 24h | ❌ No |
-| Invoice Generation | Process | 0h | ✅ Yes |
-| Payment Collection | Wait | 701 days | ❌ No |
+| Process | Cycle Time | OTD / Output |
+|------|------|-------------|
+| Receive Order | 1h | Uptime: 99% |
+| Wait (queue) | 2h | — |
+| Check & Pick & Pack | 4h | Uptime: 90% |
+| Wait (queue) | 4h | — |
+| Ship Order | 30h | OTD: 47% |
+| Wait (queue) | 4h | — |
+| Invoice | 2h | Uptime: 98% |
 
 **Summary:**
 
 | Metric | Value |
 |--------|-------|
-| Value-Added Time | 2 hours (4%) |
-| Non-Value-Added Time | 46 hours (96%) |
-| Total Cycle Time | 48 hours |
+| Process Time (PT) | 37h |
+| Wait Time | 10h |
+| Lead Time (LT) | 47h |
+| Process Cycle Efficiency (PCE) | 78.7% |
+| Order to Cash Cycle Time | 47h |
+| On-Time Delivery Rate % | 47.1% |
+| Average Days Outstanding | 47 |
+| Churn Rate % | 41% |
+| Sigma Level | 4 |
+| Supplier Performance Index (SPI) | 41/100 |
 
-**7 Wastes Identified (Lean):**
+**Bottlenecks Identified (Triangle markers in VSM):**
 
-| Waste | Severity | Description |
+| Issue | Severity | Description |
 |-------|----------|-------------|
-| Waiting | 🔴 Critical | Between every process step |
-| Transport | 🟡 Medium | Multiple warehouse touchpoints |
-| Inventory | 🟡 Medium | Overstock items identified |
-| Defects | 🟡 Medium | 5.26% avg DPU |
-| Processing | 🟢 Minor | Manual approval steps |
-| Motion | 🟢 Minor | Warehouse layout inefficiency |
-| Overproduction | 🟢 Low | Demand forecasting gap |
+| Ship Order | 🔴 Critical | -50 throughput; OTD only 47%; backlog accumulating |
+| Check & Pick & Pack | 🟡 Medium | -30 throughput; uptime 90% |
+| Supplier Performance | 🔴 Critical | SPI 41/100 — Low performance rating |
+| Customer Retention | 🟡 Medium | 272 Champions vs 268 At Risk (near 1:1 split) |
 
-#### Order to Cash Cycle Time — 701 Days
+#### Order to Cash Cycle Time — 47h
 
-**Root Cause: Payment collection process is the primary driver**
+**Root Cause: Ship Order is the primary bottleneck**
 
 | Issue | Impact |
 |-------|--------|
-| Outstanding invoices aging beyond 90 days | High |
-| No automated payment reminder system | High |
-| AR 0-30 Days vs AR >90 Days ratio not optimized | Medium |
-| Collection Effectiveness Index not monitored | Medium |
+| Ship Order has highest cycle time (30h) of all process steps | High |
+| OTD at 47% directly tied to Ship Order delays | High |
+| Throughput drop of -50 at Ship Order stage | High |
+| Backlog flagged specifically at Invoice/Ship handoff | High |
+| Supplier SPI 41/100 may be feeding delays upstream | Medium |
+| Churn Rate 41% — At Risk segment (268) nearly equals Champions (272) | Medium |
 
 ### Problem 3 — Customer Retention (59%)
 
