@@ -6,17 +6,14 @@ Enterprise Operational Excellence — Process Performance Improvement
 ## Problem Statement
 The organization operates at 4 Sigma quality level with critical 
 gaps in delivery performance (47% On-Time Delivery vs 85% target) 
-and process efficiency (4% Process Cycle Efficiency). 
+and process efficiency (78% Process Cycle Efficiency). 
 Customer retention is at risk with 268 At Risk customers 
 nearly equaling 272 Champions.
 
 ## Business Case
-- On-Time Delivery gap represents direct revenue risk 
-  through customer churn
-- 96% waste in cycle time represents significant 
-  cost reduction opportunity
-- Budget overspend of 11% despite 97% forecast accuracy 
-  indicates execution control gap
+- On-Time Delivery gap represents direct revenue risk through customer churn
+- 22% waste in cycle time represents cost reduction opportunity
+- Budget overspend of 11% despite 97% forecast accuracy indicates execution control gap
 
 ## Project Scope
 - **In Scope:** Sales, Supply Chain, Inventory, Budget processes
@@ -28,7 +25,7 @@ nearly equaling 272 Champions.
 | On-Time Delivery Rate | 47% | 85% | +38pp |
 | OEE | 82% | 85% | +3pp |
 | Sigma Level | 4 | 5 | +1 level |
-| Process Cycle Efficiency | 4% | 15% | +11pp |
+| Process Cycle Efficiency | 78% | 89% | +11pp |
 | Customer Retention Rate | 59% | 75% | +16pp |
 | Budget Variance | +11% | <5% | -6pp |
 
