@@ -23,7 +23,7 @@ opportunities and support data-driven decision making.
 | Forecast Accuracy | 97% | 95% | ✅ Exceeds Target |
 | Budget Variance | +11% | <5% | 🔴 Overspend |
 
-## 🔍 Green Belt Insights
+## 🔍 Insights
 1. **On-Time Delivery (47%)** — Systemic process failure, 
    not seasonal variation. Root cause: Supplier performance 
    (SPI avg 41/100). Recommendation: Supplier development program.
@@ -32,8 +32,8 @@ opportunities and support data-driven decision making.
    at critical tipping point. Recommendation: Immediate retention 
    campaign targeting At Risk segment.
 
-3. **Process Cycle Efficiency 4%** — 96% of cycle time is waste. 
-   Value-Added Time: 2h vs Total Cycle Time: 48h. 
+3. **Process Cycle Efficiency 79%** — 21% of cycle time is waste. 
+   Value-Added Time: 2h vs Total Cycle Time: 47h. 
    Recommendation: VSM analysis and waste elimination.
 
 4. **Budget overspend 11% despite 97% forecast accuracy** — 
@@ -51,9 +51,6 @@ opportunities and support data-driven decision making.
 | DevOps & Project Tracking | Jira + GitHub Analytics *(coming soon)* |
 
 ## 📋 DMAIC Documentation
-
-Full Lean Six Sigma Green Belt analysis documented across 5 phases:
-
 | Phase | Document | Status |
 |-------|----------|--------|
 | Project Charter | [00_Project_Charter.md](docs/DMAIC/00_Project_Charter.md) | ✅ Complete |
@@ -77,7 +74,7 @@ Full Lean Six Sigma Green Belt analysis documented across 5 phases:
 - **Power BI Desktop** — DAX, Power Query, Data Modeling
 - **Data Model** — Star Schema (14 tables, 29 relationships, 516 measures)
 - **Methodology** — Lean Six Sigma Green Belt (DMAIC, OEE, DPMO, VSM)
-- **Project Management** — Jira *(integration in progress)*
+- **Project Management** — Jira
 - **Version Control** — GitHub
 
 ## 📁 Repository Structure
